@@ -1,0 +1,9 @@
+
+edad = flat(input("ingrese su edad:"))
+if edad(18:)
+print("eres menor de edad:")
+elif edad <30:
+print("eres joven:")
+elif <60:
+    print("eres un adulto:")
+    

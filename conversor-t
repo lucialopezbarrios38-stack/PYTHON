@@ -1,0 +1,10 @@
+celsius=float(input("temperatura en celsius:"))
+
+fahrenheit = (celsius * 9/5) + 32
+kelvin= celsius + 273.15
+
+print("temperatura en celsius:",celsius, "c")
+print("temperatura en fahrenheit:", fahrenheit, "f")
+print("temperatura en kelvin:", kelvin, "k")
+
+

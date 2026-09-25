@@ -1,0 +1,10 @@
+palabra = input("digite una palabra:")
+palabra = palabra.lower()
+
+invertida = palabra[::-1]
+
+if palabra == invertida:
+    print("es un palindromo")
+
+else:
+    print("no es un palindromo")

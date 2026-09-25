@@ -1,0 +1,8 @@
+numeros=[]
+for i in range(6):
+    numero= int(input("introduce un numero:"))
+    numeros.append(numero)
+
+    numeros.sort()
+    print(numeros)
+

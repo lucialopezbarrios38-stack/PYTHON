@@ -1,0 +1,11 @@
+palabra = input("digite una palabra:")
+palabra = palabra.lower()
+
+print("cantidad de cada vocal:")
+print("a:", palabra.count("a"))
+print("e:", palabra.count("e"))
+print("i:", palabra.count("i"))
+print("o:", palabra.count("o"))
+print("u:", palabra.count("u"))
+
+

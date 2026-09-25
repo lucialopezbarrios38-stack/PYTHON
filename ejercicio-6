@@ -1,0 +1,13 @@
+asignaturas=["matematicas","fisicas","quimica","historia","lengua"]
+
+repetir =[]
+
+for asignatura in asignaturas:
+    nota=float(input("que nota has sacado en "+ asignatura +"?"))
+
+    if nota< 5:
+        repetir.append(asignatura)
+
+        print(" tienes que repetir:", repetir)
+
+
